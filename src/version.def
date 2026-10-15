@@ -1,0 +1,19 @@
+LIBRARY version.dll
+EXPORTS
+    GetFileVersionInfoA = dm_stub_GetFileVersionInfoA
+    GetFileVersionInfoByHandle = dm_stub_GetFileVersionInfoByHandle
+    GetFileVersionInfoExA = dm_stub_GetFileVersionInfoExA
+    GetFileVersionInfoExW = dm_stub_GetFileVersionInfoExW
+    GetFileVersionInfoSizeA = dm_stub_GetFileVersionInfoSizeA
+    GetFileVersionInfoSizeExA = dm_stub_GetFileVersionInfoSizeExA
+    GetFileVersionInfoSizeExW = dm_stub_GetFileVersionInfoSizeExW
+    GetFileVersionInfoSizeW = dm_stub_GetFileVersionInfoSizeW
+    GetFileVersionInfoW = dm_stub_GetFileVersionInfoW
+    VerFindFileA = dm_stub_VerFindFileA
+    VerFindFileW = dm_stub_VerFindFileW
+    VerInstallFileA = dm_stub_VerInstallFileA
+    VerInstallFileW = dm_stub_VerInstallFileW
+    VerLanguageNameA = dm_stub_VerLanguageNameA
+    VerLanguageNameW = dm_stub_VerLanguageNameW
+    VerQueryValueA = dm_stub_VerQueryValueA
+    VerQueryValueW = dm_stub_VerQueryValueW

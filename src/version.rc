@@ -1,0 +1,26 @@
+#include <winver.h>
+
+1 VERSIONINFO
+FILEVERSION 0, 1, 1, 0
+PRODUCTVERSION 0, 1, 1, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041304B0"
+        BEGIN
+            VALUE "FileDescription", "Dark mode for FileZilla, unofficial (version.dll proxy)"
+            VALUE "FileVersion", "0.1.1"
+            VALUE "InternalName", "fz-darkmode"
+            VALUE "OriginalFilename", "version.dll"
+            VALUE "ProductName", "Dark mode for FileZilla (unofficial)"
+            VALUE "ProductVersion", "0.1.1"
+            VALUE "LegalCopyright", "Free software. FileZilla is a trademark of its owner; this add-on is not affiliated with the FileZilla project."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0413, 1200
+    END
+END

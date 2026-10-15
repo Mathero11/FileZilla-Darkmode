@@ -1,0 +1,11 @@
+# build output (the DLL goes on the Releases page, not in git)
+build/
+dist/
+
+# local development files
+NOTITIES.md
+tools/
+screenshots/
+
+*.log
+*.zip
